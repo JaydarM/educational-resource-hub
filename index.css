@@ -1,1 +1,97 @@
-index.css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar, #footer {
+	background-color: #16C79A !important;
+	color: #F8F1F1;
+}
+
+nav a, nav button, nav button span {
+	color: #19456B !important;
+}
+
+#introduction, #categories, #mission {
+	background-color: #19456B;
+	color: #F8F1F1;
+}
+
+#featured, #resources, #contact {
+	background-color: #F8F1F1;
+	color: #19456B;
+}
+
+#featured {
+	width: 100%;
+	align-content: center;
+}
+
+.linked-course, .linked-category {
+	text-decoration: none;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.linked-course .card {
+	background-color: #19456B;
+	color: #F8F1F1;
+}
+
+.linked-category .card {
+	background-color: #F8F1F1;
+	color: #19456B;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
